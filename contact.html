@@ -19,12 +19,19 @@
             </div>
         </div>
 
+        <input type="checkbox" id="hamburger-toggle">
+    <label for="hamburger-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+
         <ul>
             <li><a href="index.html">Acceuil</a></li>
-            <li><a href="#">Collections</a></li>
+            <li><a href="collections.html">Collections</a></li>
             <li><a href="produits.html"> Produits</a></li>
             <li><a href="about.html">A propos</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
 
@@ -34,7 +41,7 @@
         </p>
         <div class="hero-btns">
             <a href="index.html" class="btn-primary">Acceuil</a>
-            <a href="collections.html" class="btn-secondary">Nous contacter</a>
+            <a href="collections.html" class="btn-secondary">Voir la collection</a>
         </div>
 
     </section>
@@ -63,7 +70,7 @@
                     <div class="form-group">
                         <label for="produit">Produit souhaité</label>
                         <select name="produit" id="produit">
-                            <option value="disabled selected">--choisissez un produit--</option>
+                            <option value="ddisabled selected">--choisissez un produit--</option>
                             <option value="chemise wax">Chemise Wax (Homme) — 15 000 FCFA</option>
                             <option value="robe-africaine">Robe Africaine (Femme) — 22 000 FCFA</option>
                             <option value="boubou-moderne">Boubou Moderne (Mixte) — 35 000 FCFA</option>
@@ -103,16 +110,16 @@
 
                 </div>
                 <div class="form-group">
-                        <label for="message">Message / Précisions </label>
-                        <textarea id="message" name="message"
-                            placeholder="Décrivez votre demande, ajoutez des précisions sur votre commande…"
-                            required></textarea>
-                    </div>
+                    <label for="message">Message / Précisions </label>
+                    <textarea id="message" name="message"
+                        placeholder="Décrivez votre demande, ajoutez des précisions sur votre commande…"
+                        required></textarea>
+                </div>
                 <button type="submit" class="btn-primary"
                     style="width:20%; justify-content:center; font-size:1rem; padding:1rem;">
                     ✉️ Envoyer ma demande
                 </button>
-        
+
 
 
             </form>
